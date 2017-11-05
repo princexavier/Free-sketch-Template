@@ -1,0 +1,804 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    padding: 20px 152px;
+    width: 100%;
+}
+.background{
+    background:#ff0000;
+    z-index: 1;
+}
+.background a {
+    color: #fff;
+}
+.background .scroll{
+    color:#fff;
+}
+
+.logo {
+    font-size: 20px;
+    color: #141720;
+    cursor: pointer;
+}
+
+.navbar li a {
+    font-size: 16px;
+    color: #5d5f65;
+}
+.navbar li:last-child{
+    margin-right: 0px;
+}
+
+.btn {
+    display: none;
+}
+
+.navbar {
+    float: right;
+}
+.color{
+    color: white;
+}
+
+.navbar li {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.hamburger-btn {
+    display: none;
+}
+
+#home article h1 {
+    padding-top: 231px;
+    text-align: center;
+    color: #141720;
+    font-size: 44px;
+    padding-bottom: 17px;
+}
+
+#home article p {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 290px;
+    line-height: 2.4;
+    color: #5d5f65;
+}
+
+.about-us {
+    background: url('../images/about-us-min.jpg') no-repeat right / 50% 100%;
+}
+
+.about-us-container {
+    background-color: #141720;
+    padding: 160px 153px 242px 153px;
+    width: calc(100% / 2);
+}
+
+.slideup {
+    transition: 3s;
+    animation-name: slideup;
+    animation-duration: 3s;
+}
+
+@keyframes slideup {
+    from {
+        transform: translateY(100px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+.about-us-container h3 {
+    padding-bottom: 56px;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.para-1 {
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 1.73;
+    text-align: justify;
+}
+
+.para-2 {
+    font-size: 15px;
+    padding-top: 30px;
+    color: #ffffff;
+    line-height: 1.73;
+    text-align: justify;
+}
+
+
+
+/*timeline wrapper content*/
+
+.timeline-wrapper article {
+    padding: 0px 153px 0px;
+}
+
+.left-wrapper {
+    float: left;
+    width: calc(100% / 2);
+}
+
+.left-content {
+    position: relative;
+    width: 50%;
+    left: 30%;
+}
+
+.timeline-text li {
+    padding: 15px;
+}
+
+.timeline-text li span {
+    display: block;
+    font-size: 16px;
+    padding-left: 16px;
+}
+
+.timeline-text li span:nth-child(1) {
+    padding:134px 0px 61px 16px;
+}
+
+.timeline-text li span:nth-child(2) {
+    padding-bottom: 82px;
+}
+
+.timeline-text li span:nth-child(3) {
+    padding-bottom: 141px;
+}
+
+.left-content:before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 508px;
+    border: 3px solid #d4d4d4;
+    background-color: #d4d4d4;
+}
+
+.timeline-text li span:before {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border: 4px solid #d4d4d4;
+    background-color: #fff;
+    border-radius: 40px;
+    margin-left: -39px;
+}
+
+.timeline-year {
+    position: absolute;
+    top: 149px;
+    left: -80px;
+}
+
+.timeline-year li span {
+    display: block;
+}
+
+.timeline-year li span:nth-child(1) {
+    padding-bottom: 61px;
+}
+
+.timeline-year li span:nth-child(2) {
+    padding-bottom: 82px;
+}
+
+.timeline-year li span:nth-child(3) {
+    padding-bottom: 141px;
+}
+
+/*.first-span {
+    display: block;
+    margin-top: 149px;
+}*/
+
+
+.timeline-text li span:nth-child(1):before {
+    border: 4px solid #c71222;
+}
+
+.right-wrapper {
+    padding: 139px 0px 245px 0px;
+    float: left;
+    width: calc(100% / 2);
+}
+
+.right-wrapper h3 {
+    font-size: 28px;
+    color: #2b2b2b;
+    padding-bottom: 56px;
+    text-align: center;
+}
+
+.right-wrapper p {
+    text-align: justify;
+    color: #5d5f65;
+    line-height: 1.73;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+
+
+/*services-wrapper starts here*/
+
+.services-wrapper {
+    background-color: #efefef;
+}
+
+.services-wrapper article {
+    padding: 140px 153px 141px;
+}
+
+.services-head {
+    font-size: 28px;
+    color: #2b2b2b;
+    text-align: center;
+    margin-bottom: 82px;
+}
+
+.services-content {
+    padding: 0px 45px 69px;
+    padding-right: 45px;
+    width: calc(100% / 3);
+    float: left;
+}
+
+.group i {
+    padding-bottom: 19px;
+    color: #e06a4a;
+}
+
+.group h3 {
+    font-size: 20px;
+    color: #141720;
+}
+
+.group p {
+    text-align: justify;
+    padding-top: 10px;
+    color: #5d5f65;
+    font-size: 15px;
+}
+
+.second-content {
+    padding-top: 69px;
+}
+
+
+
+/*we're hiring section*/
+
+.hiring-wrapper {
+    background: url('../images/hiring.jpg') no-repeat left / 50% 100%;
+}
+
+.hiring-container {
+    background-color: #141720;
+    padding: 140px 153px 245px;
+    float: right;
+    width: calc(100% / 2);
+}
+
+.hiring-container h3 {
+    padding-bottom: 31px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+}
+
+
+
+/*contact starts here*/
+
+.contact-container h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 31px;
+}
+
+input {
+    color: white;
+    font-size: 16px;
+    outline: none;
+    display: block;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    padding-bottom: 7px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.first-content>input:nth-child(4) {
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.contact-btn {
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    right: 145px;
+    bottom: 160px;
+    border: none;
+    width: 170px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #c71222;
+    margin-bottom: 16px;
+}
+
+.line {
+    display: block;
+    height: 2px;
+    width: 100%;
+    border: 1px solid white;
+}
+
+.first-content {
+    background: #141720;
+    padding: 140px 150px 150px 117px;
+    position: relative;
+    width: calc(100% / 2);
+    float: left;
+}
+
+.map {
+    height: 610px;
+    width: calc(100% / 2);
+    float: right;
+}
+
+
+
+                                            /*------------------------------------------
+                                                        media query starts here
+                                               ------------------------------------------  
+                                             */
+
+@media screen and (max-width: 480px) {
+    .btn {
+        display: block;
+    }
+    .parent {
+        perspective: 1000px;
+    }
+    .navbar {
+        width: 250px;
+        height: 100vh;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: -250px;
+        background: #000;
+        transition: all 1s ease-in-out;
+        transform:rotateY(0deg);
+    }
+    .home-article{
+    padding: 0px 20px;
+}
+     .navbar li{
+        display: block;
+    }
+
+    .navbar.visible {
+        right: -25px;
+        transform:rotateY(-45deg);
+    }
+    .btn i {
+        margin-right: 20px;
+        position: absolute;
+        right: 0px;
+        height: 24px;
+        width: 24px;
+        color: white;
+        cursor: pointer;
+        z-index: 333;
+    }
+    .cross-icon {
+        opacity: 0;
+        transition: all 1s ease-in-out;
+    }
+    .open{
+        opacity: 1;
+    }
+    .close {
+        opacity: 0;
+    }
+    .bar-icon {
+        transition: all 1s ease-in-out;
+    }
+    .left-content {
+        width: 191px;
+        left: 35%;
+    }
+    .container {
+        width: 100%;
+        padding: 20px 20px 20px 20px !important;
+    }
+
+    header {
+        perspective: 1000px;
+        position: fixed;
+        top: 0;
+        z-index: 3;
+        width: 100%;
+        background: red;
+        padding: 20px 0px;
+    }
+    header span {
+        float: right;
+        margin-right: 20px;
+    }
+    .logo {
+        font-size: 18px;
+        color: #fff;
+        float: left;
+        margin-left: 20px;
+    }
+    .navbar  li a {
+        font-size: 20px;
+        color: white !important;
+        float: none;
+        text-align: center;
+        display: block;
+        padding: 20px 0px;
+        border-bottom: 1px solid #fff;
+        margin: 0;
+    }
+
+    .about-us {
+        padding-bottom: 340px;
+        background: #141720 url('../images/about-us-min.jpg') no-repeat bottom / 100%;
+    }
+    .timeline-wrapper {
+        padding: 0px;
+    }
+    .timeline-wrapper article{
+        padding: 0px;
+    }
+    .right-content h3 {
+        padding: 50px 0px 20px;
+    }
+    .home-section {
+        padding: 50px 0px;
+    }
+    #home article h1 {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    #home article p {
+        line-height: normal;
+        padding: 50px 0px;
+    }
+    .services-content {
+        width: 100%;
+        float: none;
+    }
+    .left-wrapper,
+    .right-wrapper {
+        float: none;
+        width: 100%;
+        padding-bottom: 0px;
+    }
+    .right-content {
+        padding: 0px;
+    }
+    .services-wrapper {
+        padding: 20px 0px 0px;
+    }
+    .services-head {
+        margin-bottom: 50px;
+    }
+    .group {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .hiring-wrapper {
+        background: url('../images/hiring.jpg') no-repeat bottom / 100%;
+        padding-bottom: 290px;
+    }
+    .hiring-container h3 {
+        padding-top: 20px;
+    }
+    .hiring-container {
+        float: none;
+        width: 100%;
+    }
+    .para-2 {
+        padding-bottom: 20px;
+    }
+    .first-content {
+        float: none;
+        padding-bottom: 30px;
+    }
+    .map {
+        width: 100%;
+    }
+    .contact-btn {
+        right: 17px;
+        bottom: 25px;
+        width: 120px;
+        height: 40px;
+    }
+    .contact-container h3 {
+        padding-top: 30px;
+    }
+    .services-content {
+        padding: 0px;
+    }
+    .second-content {
+        padding: 0px;
+    }
+    .map {
+        height: 450px;
+    }
+    .contact-btn {
+        color: white;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+
+    .container {
+        width: 80%;
+        padding: 20px 0px 20px 0px;
+        margin: 0px auto;
+    }
+    .parent {
+        perspective: 1000px;
+    }
+    .navbar {
+        width: 250px;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: -250px;
+        background: #000;
+        transition: all 1s ease-in-out;
+        transform: rotateY(0deg);
+    }
+
+    .navbar li {
+        display: block;
+        margin: 0px;
+    }
+
+    .navbar.visible {
+        right: -25px;
+        transform:rotateY(-45deg);
+    }
+    .btn {
+        display: inline-block;
+        float: right;
+    }
+    .btn>i {
+        position: absolute;
+        right: 0;
+        margin-right: 20px;
+        height: 24px;
+        width: 24px;
+        color: white;
+        cursor: pointer;
+        z-index: 333;
+    }
+    .cross-icon {
+        opacity: 0;
+        transition: all 1s ease-in-out;
+    }
+    .open {
+        opacity: 1;
+    }
+    .close {
+        opacity: 0;
+    }
+    .bar-icon {
+        transition: all 1s ease-in-out;
+    }
+    .left-content {
+        width: 191px;
+        left: 50%;
+    }
+
+    header {
+        perspective: 1000px;
+        position: fixed;
+        top: 0;
+        z-index: 3;
+        width: 100%;
+        background: red;
+        padding: 20px 0px;
+    }
+    header span {
+        float: right;
+        margin-right: 20px;
+    }
+    .navbar {
+        transition: all 1s ease-in-out;
+    }
+    .logo {
+        float: left;
+        color: #fff;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .navbar li a {
+        font-size: 20px;
+        color: #fff !important;
+        float: none;
+        text-align: center;
+        display: block;
+        padding: 15px 0px;
+        border-bottom: 1px solid #fff;
+        margin: 0;
+    }
+
+    #home article {
+        padding: 180px 20px;
+    }
+    #home article h1 {
+        padding-top: 0px;
+    }
+    #home article p {
+        padding-bottom: 0px;
+    }
+
+    .home-section {
+        padding: 50px 0px;
+    }
+    .about-us {
+        background: #141720 url('../images/about-us.jpg') no-repeat bottom / 100% 50%;
+        padding-bottom: 370px;
+    }
+    .about-us-container h3 {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .para-2 {
+        padding-bottom: 0px;
+    }
+    .right-wrapper {
+        float: none;
+    }
+    .left-wrapper {
+        float: none;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .right-content {
+        padding: 0px;
+    }
+    .right-content h3 {
+        padding: 30px 0px 20px;
+    }
+    .timeline-wrapper article{
+        padding: 0px;
+    }
+    .services-wrapper article {
+        padding: 0px;
+    }
+    .services-content {
+        width: 100%;
+        padding: 0px 0px 40px 0px;
+        text-align: center;
+    }
+    .second-content {
+        padding-top: 20px;
+    }
+    .group h3 {
+        padding-bottom: 10px;
+    }
+    .services-wrapper {
+        padding: 30px 0px;
+    }
+    .services-head {
+        margin-bottom: 50px;
+    }
+    .hiring-container {
+        float: none;
+    }
+    .hiring-wrapper {
+        padding-bottom: 400px;
+        background: #141720 url('../images/hiring.jpg') no-repeat bottom / 100% 50%;
+    }
+    .hiring-container h3 {
+        padding-top: 30px;
+    }
+    .contact-btn {
+        right: 30px;
+        bottom: 43px;
+        color: white;
+    }
+    .first-content {
+        width: 100%;
+        padding: 0px 30px 50px 30px;
+        float: none;
+    }
+    .map {
+        width: 100%;
+        height: 450px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .container {
+        padding: 40px 50px !important;
+    }
+    .timeline-wrapper article{
+        padding: 0px 50px;
+    }
+
+    .para-2 {
+        padding-bottom: 100px;
+    }
+
+    .about-us-container h3 {
+        padding-top: 0px;
+    }
+    .right-content {
+        padding: 0px;
+    }
+    .hiring-container {
+        padding: 40px 55px;
+    }
+    .services-wrapper article{
+        padding: 0px;
+    }
+    .services-wrapper {
+        padding: 30px 55px;
+    }
+    .services-content{
+        padding: 0px 45px 0px 0px;
+    }
+    .hiring-container h3 {
+        padding-top: 0px;
+    }
+    .services-head {
+        margin-bottom: 40px;
+    }
+    .contact-btn {
+        bottom: 40px;
+        right: 50px;
+    }
+    .contact-container h3 {
+        padding-top: 50px;
+    }
+    .map {
+        height: 450px;
+    }
+}
+
+
+
+
+                                          /*------------------------------------------
+                                                media query ends here
+                                          ------------------------------------------  
+                                          */
